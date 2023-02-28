@@ -16,3 +16,9 @@ clean up all created images.
 
 6) Run new containers based on the re-built images, ensuring that the containers
 are removed automatically when stopped.
+
+To rename existing image name execute `docker tag old_name new_name`
+
+To push image to dockerhub repository `docker push image_name`
+
+To pull image to dockerhub repository `docker pull image_name`
